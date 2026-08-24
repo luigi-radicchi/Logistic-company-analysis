@@ -20,9 +20,24 @@ description
  
 ### Customer Analysis
 - The top five customers generated a significant share of total revenue.
-- First Group was the largest customer during the analyzed period.
  
 ### Seasonality
 - Revenue shows recurring seasonal patterns.
 - February consistently appears below average while summer months show stronger performance.
+
+## Customer's analysis
+<p align="center">
+<img src="Screenshots/02_Customers_analysis.png" width="900">
+
+### Sector Performance
+Automotive generated the highest revenue over the analyzed period, exceeding $55M.
+
+### Customer Mix
+The customer base is well diversified across six major sectors, with no sector representing an excessive concentration risk.
+
+### Growth
+Consumer Goods showed the strongest recent growth, while Automotive experienced a slight contraction during the last year.
+
+### Operational Trends
+Trip volumes remained stable across the three-year period, suggesting consistent demand.
 
