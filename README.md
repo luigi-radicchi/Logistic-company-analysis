@@ -29,6 +29,7 @@ description
 <p align="center">
 <img src="Screenshots/02_Customers_analysis.png" width="900">
 
+## Key findings
 ### Sector Performance
 Automotive generated the highest revenue over the analyzed period, exceeding $55M.
 
