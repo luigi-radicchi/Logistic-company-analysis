@@ -27,7 +27,7 @@ description
 
 ## Customer's analysis
 <p align="center">
-<img src="Screenshots/02_Customers_analysis.png" width="900">
+<img src="Screenshots/02_Customer_analysis.png" width="900">
 
 ## Key findings
 ### Sector Performance
