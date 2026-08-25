@@ -45,3 +45,25 @@ Trip volumes remained stable across the three-year period, suggesting consistent
 ## Route Profitability
 <p align="center">
 <img src="Screenshots/03_route_profitability.png" width="900">
+
+## Key findings
+### Route Profitability
+ - The most profitable transportation lanes achieved profit margins close to 70%, indicating a highly efficient pricing and cost structure on selected routes.
+ - Profitability among the top-performing routes is relatively homogeneous, suggesting that the company's route network is optimized and does not rely on a single exceptionally profitable lane.
+ - Several routes generate similar profit margins despite different geographic destinations, highlighting opportunities to replicate successful operational practices across the network.
+
+### Geographic Performance
+ - Oregon, California, Washington, Texas and Pennsylvania represent the largest contributors to net revenue, making them strategically important markets for the business.
+ - High-revenue states do not always coincide with the states exhibiting the highest profit margins, confirming that revenue alone is not a sufficient indicator of route performance.
+ - States such as Nevada, Oregon and North Carolina show some of the strongest margins, suggesting favorable operating costs and/or pricing conditions.
+
+### Hub Efficiency
+ - Kansas City is the most frequently used origin hub, indicating its central role within the transportation network.
+ - Although not the busiest location, Columbus ranks among the hubs with the strongest profitability performance, demonstrating that operational efficiency can outweigh pure shipment volume.
+ - The comparison between hub frequency and hub profitability highlights potential opportunities to redirect volumes toward more profitable network nodes.
+
+### Business Recommendations
+ - Increase commercial focus on high-margin routes to maximize profitability while maintaining service quality.
+Investigate the operational practices of top-performing hubs and replicate them across lower-margin locations.
+ - Evaluate whether additional capacity should be allocated to states and routes combining both high revenue contribution and strong profit margins.
+ - Monitor route profitability over time to identify changes in fuel costs, demand patterns, or operational efficiency that could affect network performance.
