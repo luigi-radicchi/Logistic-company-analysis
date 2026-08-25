@@ -42,3 +42,6 @@ Consumer Goods showed the strongest recent growth, while Automotive experienced 
 ### Operational Trends
 Trip volumes remained stable across the three-year period, suggesting consistent demand.
 
+## Route Profitability
+<p align="center">
+<img src="Screenshots/03_route_profitability.png" width="900">
