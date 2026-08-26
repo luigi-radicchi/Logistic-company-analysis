@@ -104,3 +104,38 @@ Investigate the operational practices of top-performing hubs and replicate them 
  - Strengthen compliance monitoring and driver coaching programs to reduce DOT violations and traffic-related incidents.
  - Implement safety KPIs at driver and route level to identify recurring risk patterns before they generate significant financial losses.
  - Integrate profitability and safety metrics in management reporting to ensure that operational growth does not come at the expense of increased risk exposure.
+
+## Maintenance Analysis
+<p align="center">
+<img src="Screenshots/05_maintenance_analysis.png" width="900">
+
+## Key findings
+### Maintenance Cost Overview
+ - The fleet required 2,920 maintenance interventions over the three-year period, generating a total maintenance expenditure exceeding $5.7M.
+ - Maintenance spending remained relatively stable across the analyzed years, indicating a mature asset management strategy and consistent maintenance planning.
+ - Average intervention cost remained close to $2,000 per repair, suggesting effective control over maintenance expenses despite significant fleet utilization.
+
+### Maintenance Categories
+ - Repair, Preventive Maintenance, and Brake-related activities account for the largest share of maintenance spending.
+ - Preventive maintenance represents a substantial portion of total expenditures, highlighting a proactive maintenance strategy rather than a reactive "run-to-failure" approach.
+ - Inspection-related activities generated significantly lower costs compared to repair-oriented interventions, emphasizing the importance of routine inspections in preventing more expensive failures.
+
+### Fleet Manufacturer Performance
+ - Fleet composition is relatively balanced among all major OEMs, reducing operational dependency on a single manufacturer.
+ - Revenue generation differs across manufacturers, with some OEMs generating substantially higher revenue despite similar fleet representation.
+ - Variations in maintenance costs and labor requirements indicate that asset performance is not uniform across manufacturers and should be considered when planning future fleet acquisitions.
+
+### Equipment Utilization
+ - Average odometer readings at maintenance events are remarkably consistent across OEMs, suggesting a standardized maintenance scheduling process throughout the fleet.
+ - High utilization levels combined with stable maintenance costs indicate that assets are being used efficiently without generating disproportionate repair expenses.
+ - Vehicles with higher revenue contribution should be monitored closely to ensure maintenance capacity remains aligned with operational demand.
+### Labor and Downtime Analysis
+ - Average labor hours per intervention remained stable at approximately 4 hours, indicating predictable maintenance workloads and repair complexity.
+ - Average downtime per intervention remained consistent across the analyzed period, suggesting that workshop operations and maintenance planning are effectively controlled.
+ - Minimizing downtime remains a key opportunity because even small reductions can increase fleet availability and improve overall asset utilization.
+
+### Business Recommendations
+ - Continue prioritizing preventive maintenance activities, as they help contain long-term repair costs and reduce unexpected equipment failures.
+ - Evaluate maintenance performance at the OEM level to identify manufacturers delivering the best balance between revenue generation, maintenance costs, and reliability.
+ - Monitor downtime and labor efficiency as leading indicators of future maintenance performance.
+ - Incorporate maintenance cost metrics into fleet replacement decisions to ensure that aging assets do not negatively impact profitability.
