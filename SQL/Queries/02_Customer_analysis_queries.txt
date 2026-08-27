@@ -1,0 +1,23 @@
+### Customer aggregation
+
+SELECT 
+  primary_freight_type,
+  count(customer_id) as counter,
+  avg(annual_revenue_potential) as avg_potential_revenue
+from customers
+where account_status = 'Active'
+GROUP BY primary_freight_type;
+
+### Customer growth
+
+SELECT
+  c.primary_freight_type as sector,
+  count(case when t.dispatch_year = '2022' then t.trip_id end) as trips_2022,
+  count(case when t.dispatch_year = '2023' then t.trip_id end) as trips_2023,
+  count(case when t.dispatch_year = '2024' then t.trip_id end) as trips_2024
+  
+FROM trips t
+  join loads l on t.load_id = l.load_id
+  join customers c on l.customer_id = c.customer_id
+
+group by sector;

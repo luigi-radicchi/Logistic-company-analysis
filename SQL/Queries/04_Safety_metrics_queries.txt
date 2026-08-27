@@ -1,0 +1,62 @@
+### Safety_year_aggregation
+
+SELECT
+  right(left(i.incident_date,10),4) as incident_year,
+  count(i.incident_id) as events,
+  sum(case when i.preventable_flag = 'True' then 1 else 0 end) as preventable_events,
+  sum(case when i.injury_flag = 'True' then 1 else 0 end) as injury_events,
+  sum(i.claim_amount) as total_cost,
+  sum(i.claim_amount) / count(i.incident_id) as cost_per_incident
+
+from safety_incidents i
+group by incident_year;
+
+### Safety_state
+
+SELECT
+  i.location_state,
+  count(incident_id) as events,
+  round(sum(i.claim_amount),0) as total_costs,
+  round(sum(i.claim_amount) / count(incident_id),0) as cost_per_event
+from safety_incidents i
+group by location_state;
+
+### Safety_type
+
+SELECT 
+  i.incident_id as inc_id,
+  i.incident_date as date_inc,
+  i.incident_type as incident_type,
+  i.description as description,
+  i.location_city as location_city,
+  i.location_state as location_state,
+  i.injury_flag as injury_flag,
+  i.claim_amount as total_cost,
+  i.preventable_flag as is_preventabe,
+  concat(d.first_name, ' ',d.last_name) as fullname,
+  d.years_experience as years_experience,
+  t.actual_distance_miles as distance_of_trip,
+  r.make as truck_OEM,
+  r.model_year as year_constr
+  
+FROM safety_incidents i
+left join trips t on i.trip_id = t.trip_id
+left join trucks r on i.truck_id = r.truck_id
+left join drivers d on i.driver_id = d.driver_id
+order by inc_id asc;
+
+### Safety_type_metrics
+
+select incident_type,
+  count(incident_id) as events,
+  sum(claim_amount) as total_cost,
+  sum(claim_amount) / count(incident_id) as cost_per_incident,
+  sum(case when preventable_flag = 'True' then 1 else 0 end) as preventable_events,
+  sum(case when preventable_flag = 'False' then 1 else 0 end) as non_preventable_events,
+  100*sum(case when preventable_flag = 'True' then 1 else 0 end) / count(incident_id) as perc_preventable,
+  sum(case when injury_flag = 'True' then 1 else 0 end) as injury_events,
+  sum(case when injury_flag = 'False' then 1 else 0 end) as non_injury_events,
+  100*sum(case when injury_flag = 'True' then 1 else 0 end) / count(incident_id) as perc_injury
+from safety_incidents
+  group by incident_type
+order by incident_type desc;

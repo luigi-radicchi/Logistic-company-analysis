@@ -1,0 +1,46 @@
+### Maintenance_year_aggr
+
+SELECT
+  right(m.maintenance_date,4) as year,
+  count(m.maintenance_id) as intervents,
+  round(sum(m.total_cost),0) as total_cost,
+  round(sum(m.total_cost) / count(m.maintenance_id),0) as cost_per_intervent,
+  round(sum(m.downtime_hours),0) as downtime_hours,
+  round(sum(m.downtime_hours)/count(m.maintenance_id),1) as downtime_hr_per_intervent,
+  round(sum(m.labor_hours),0) as labor_hours,
+  round(sum(m.labor_hours) / count(m.maintenance_id),1) as labor_hr_per_intervent
+from maintenance_records m
+group by year;
+
+### Maintenance_OEM
+
+SELECT
+  t.make,
+  count(t.truck_id) as units,
+  round(avg(m.odometer_reading),0) as odo,
+  round(avg(m.labor_hours),2) as labor_hr,
+  round(avg(m.total_cost),0) as total_cost
+FROM maintenance_records m
+join trucks t on m.truck_id = t.truck_id
+group by t.make;
+
+### Maintenance_matrix
+
+SELECT
+  m.maintenance_id,
+  m.maintenance_type as event,
+  round(m.total_cost,2) as total_cost,
+  m.service_description as service,
+  m.labor_hours
+  
+from maintenance_records m;
+
+### Fleet maintenance
+
+SELECT
+  t.make,
+  sum(m.total_cost) as total_cost
+from maintenance_records m
+  join trucks t on m.truck_id = t.truck_id
+group by t.make;
+

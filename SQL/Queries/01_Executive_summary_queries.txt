@@ -1,0 +1,45 @@
+### trip-loads_full_join
+
+SELECT
+  t.trip_id as trip_id,
+  u.truck_id as truck_id,
+  t.dispatch_date as dispatch_date,
+  l.load_id as load_id,
+  c.customer_name as customer_name,
+  c.customer_type as customer_type,
+  c.annual_revenue_potential as annual_revenue_potential,
+  c.primary_freight_type as customer_sector,
+  concat(r.origin_city,'-',r.destination_city) as route,
+  r.destination_state as destination_state,
+  r.typical_distance_miles as distance,
+  t.actual_distance_miles as actual_distance,
+  l.weight_lbs as load_weight,
+  l.pieces as pieces,
+  l.revenue as revenue,
+  t.fuel_gallons_used as fuel_used,
+  t.average_mpg as average_mpg
+from trips t
+left join loads l on t.load_id = l.load_id
+left join customers c on l.customer_id = c.customer_id
+left join routes r on l.route_id = r.route_id
+left join trucks u on t.truck_id = u.truck_id
+group by t.trip_id, u.truck_id, t.dispatch_date, l.load_id, c.customer_name, c.customer_type, r.destination_state, c.annual_revenue_potential, c.primary_freight_type, r.typical_distance_miles, route, actual_distance, load_weight, pieces, revenue, fuel_used, average_mpg
+order by load_id ASC;
+
+### 3yr_summary
+
+SELECT
+  f.purchase_year,
+  sum(f.total_cost) as fuel_spent
+
+from fuel_purchases f 
+
+group by purchase_year;
+
+select 
+  right(left(incident_date,10),4) as year,
+  count(*)
+from safety_incidents
+group by year;
+
+### 

@@ -1,0 +1,18 @@
+### Route_profitability
+
+SELECT 
+l.route_id,
+  concat(r.origin_city, '-', r.destination_city) as route,
+  r.origin_city as origin_city,
+  r.origin_state as origin_state,
+  r.destination_city as destination_city,
+  r.destination_state as destination_state,
+  sum(l.revenue) as total_revenue,
+  sum(t.actual_distance_miles) as total_miles,
+  count(l.route_id) as trips 
+from loads l
+  join trips t on l.load_id = t.load_id
+  join routes r on l.route_id = r.route_id
+group by l.route_id, route,  r.origin_city, r.origin_state, r.destination_city, r.destination_state
+  order by route_id ASC;
+
