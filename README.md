@@ -139,3 +139,19 @@ Investigate the operational practices of top-performing hubs and replicate them 
  - Evaluate maintenance performance at the OEM level to identify manufacturers delivering the best balance between revenue generation, maintenance costs, and reliability.
  - Monitor downtime and labor efficiency as leading indicators of future maintenance performance.
  - Incorporate maintenance cost metrics into fleet replacement decisions to ensure that aging assets do not negatively impact profitability.
+
+## Tools Used
+### Database
+ - PostgreSQL (Neon)
+
+### Analysis
+ - SQL
+ - CTEs
+ - Aggregations
+ - Joins
+
+### Visualization
+ - Power BI
+
+### Version Control
+ - GitHub
