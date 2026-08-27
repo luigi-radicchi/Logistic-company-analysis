@@ -12,6 +12,8 @@ The analysis focuses on:
  - Safety incidents and risk management
  - Fleet utilization and maintenance efficiency
 
+This project is carried out starting from flat tables that have been loaded into a Neon database that can be queried through SQL statements. 
+The output tables are downloaded through csv files that are loaded into Power BI for analytical analysis and report building.
 
 ## Executive summary
 <p align="center">
