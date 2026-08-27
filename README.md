@@ -1,6 +1,16 @@
 # Logistic-company-analysis
 
-description
+This project analyzes the operational, commercial and financial performance of a logistics company over a three-year period.
+
+The objective is to transform a relational operational database into actionable business insights through SQL data modeling and Power BI reporting.
+
+The analysis focuses on:
+
+ - Revenue and profitability trends
+ - Customer portfolio performance
+ - Route profitability and geographic analysis
+ - Safety incidents and risk management
+ - Fleet utilization and maintenance efficiency
 
 
 ## Executive summary
