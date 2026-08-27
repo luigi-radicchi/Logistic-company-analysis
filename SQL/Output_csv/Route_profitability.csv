@@ -1,0 +1,59 @@
+"route_id","route","origin_city","origin_state","destination_city","destination_state","total_revenue","total_miles","trips"
+"RTE00001","Atlanta-Chicago","Atlanta","GA","Chicago","IL",1675362.80,1012400,1456
+"RTE00002","Atlanta-Miami","Atlanta","GA","Miami","FL",2154291.12,1064169,1481
+"RTE00003","Chicago-Los Angeles","Chicago","IL","Los Angeles","CA",7621380.80,3082778,1496
+"RTE00004","Chicago-Portland","Chicago","IL","Portland","OR",5418160.40,3028076,1459
+"RTE00005","Chicago-Las Vegas","Chicago","IL","Las Vegas","NV",6236094.68,2661627,1479
+"RTE00006","Chicago-Charlotte","Chicago","IL","Charlotte","NC",2105438.99,1013734,1460
+"RTE00007","Dallas-New York","Dallas","TX","New York","NY",6009333.30,2437105,1502
+"RTE00008","Dallas-Denver","Dallas","TX","Denver","CO",2915299.86,1146810,1461
+"RTE00009","Dallas-Indianapolis","Dallas","TX","Indianapolis","IN",2528552.04,1333633,1477
+"RTE00010","New York-Philadelphia","New York","NY","Philadelphia","PA",217573.05,138291,1468
+"RTE00011","New York-Columbus","New York","NY","Columbus","OH",1382122.12,844360,1501
+"RTE00012","Phoenix-Philadelphia","Phoenix","AZ","Philadelphia","PA",9757537.38,3706749,1507
+"RTE00013","Phoenix-Denver","Phoenix","AZ","Denver","CO",1672332.07,1011364,1462
+"RTE00014","Phoenix-Kansas City","Phoenix","AZ","Kansas City","MO",3840447.09,1845717,1487
+"RTE00015","Philadelphia-New York","Philadelphia","PA","New York","NY",393428.95,144882,1537
+"RTE00016","Philadelphia-Seattle","Philadelphia","PA","Seattle","WA",10069054.22,4118647,1465
+"RTE00017","Philadelphia-Minneapolis","Philadelphia","PA","Minneapolis","MN",3013539.60,1713978,1473
+"RTE00018","Philadelphia-Indianapolis","Philadelphia","PA","Indianapolis","IN",2023437.21,1003605,1456
+"RTE00019","Houston-Detroit","Houston","TX","Detroit","MI",4272648.64,1887612,1443
+"RTE00020","Houston-Seattle","Houston","TX","Seattle","WA",5712509.24,3322940,1485
+"RTE00021","Houston-Portland","Houston","TX","Portland","OR",7595328.46,3196415,1473
+"RTE00022","Houston-Memphis","Houston","TX","Memphis","TN",1542771.85,816443,1424
+"RTE00023","Miami-Dallas","Miami","FL","Dallas","TX",4154689.23,1835111,1398
+"RTE00024","Miami-Philadelphia","Miami","FL","Philadelphia","PA",4373096.44,1812278,1497
+"RTE00025","Miami-Seattle","Miami","FL","Seattle","WA",7523007.13,4683089,1450
+"RTE00026","Miami-Denver","Miami","FL","Denver","CO",4906933.67,2944131,1440
+"RTE00027","Detroit-Houston","Detroit","MI","Houston","TX",3834651.27,1950294,1491
+"RTE00028","Seattle-Houston","Seattle","WA","Houston","TX",6233044.36,3394000,1518
+"RTE00029","Seattle-Charlotte","Seattle","WA","Charlotte","NC",9516077.71,3964388,1467
+"RTE00030","Seattle-Indianapolis","Seattle","WA","Indianapolis","IN",7681556.33,3195712,1445
+"RTE00031","Denver-Kansas City","Denver","CO","Kansas City","MO",2106384.19,991343,1505
+"RTE00032","Portland-Detroit","Portland","OR","Detroit","MI",6621835.80,3420338,1472
+"RTE00033","Portland-Seattle","Portland","OR","Seattle","WA",600190.85,255668,1491
+"RTE00034","Portland-Columbus","Portland","OR","Columbus","OH",7264971.31,3533761,1472
+"RTE00035","Las Vegas-Dallas","Las Vegas","NV","Dallas","TX",2990648.75,1821282,1441
+"RTE00036","Las Vegas-Los Angeles","Las Vegas","NV","Los Angeles","CA",1047474.47,410033,1522
+"RTE00037","Las Vegas-New York","Las Vegas","NV","New York","NY",5770647.80,3895558,1477
+"RTE00038","Las Vegas-Kansas City","Las Vegas","NV","Kansas City","MO",5053014.94,1925399,1425
+"RTE00039","Minneapolis-Atlanta","Minneapolis","MN","Atlanta","GA",3128669.10,1547599,1440
+"RTE00040","Minneapolis-Los Angeles","Minneapolis","MN","Los Angeles","CA",6021487.56,2601698,1444
+"RTE00041","Minneapolis-Houston","Minneapolis","MN","Houston","TX",4784672.48,1788217,1429
+"RTE00042","Charlotte-Seattle","Charlotte","NC","Seattle","WA",9070885.01,3912108,1447
+"RTE00043","Charlotte-Denver","Charlotte","NC","Denver","CO",3616131.16,2407265,1500
+"RTE00044","Charlotte-Portland","Charlotte","NC","Portland","OR",9979091.72,3817963,1410
+"RTE00045","Charlotte-Memphis","Charlotte","NC","Memphis","TN",2097068.56,929062,1514
+"RTE00046","Columbus-Los Angeles","Columbus","OH","Los Angeles","CA",9501202.04,3583020,1534
+"RTE00047","Columbus-Philadelphia","Columbus","OH","Philadelphia","PA",1595152.57,797500,1628
+"RTE00048","Columbus-Portland","Columbus","OH","Portland","OR",9586536.90,3661229,1525
+"RTE00049","Columbus-Minneapolis","Columbus","OH","Minneapolis","MN",2752205.19,1080767,1461
+"RTE00050","Columbus-Kansas City","Columbus","OH","Kansas City","MO",2032107.10,1079275,1472
+"RTE00051","Memphis-Los Angeles","Memphis","TN","Los Angeles","CA",5047294.12,2805110,1480
+"RTE00052","Memphis-Minneapolis","Memphis","TN","Minneapolis","MN",1950967.02,1233002,1490
+"RTE00053","Kansas City-Atlanta","Kansas City","MO","Atlanta","GA",2529485.88,1109332,1386
+"RTE00054","Kansas City-Los Angeles","Kansas City","MO","Los Angeles","CA",4603410.16,2361043,1472
+"RTE00055","Kansas City-Miami","Kansas City","MO","Miami","FL",5170899.40,2120245,1443
+"RTE00056","Kansas City-Portland","Kansas City","MO","Portland","OR",6234118.29,2603304,1471
+"RTE00057","Kansas City-Charlotte","Kansas City","MO","Charlotte","NC",3307462.90,1392714,1469
+"RTE00058","Kansas City-Indianapolis","Kansas City","MO","Indianapolis","IN",1682085.01,765028,1432

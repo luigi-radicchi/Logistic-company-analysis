@@ -1,0 +1,6 @@
+"incident_type","events","total_cost","cost_per_incident","preventable_events","non_preventable_events","perc_preventable","injury_events","non_injury_events","perc_injury"
+"Moving Violation",27,410843.79,15216.436666666667,10,17,37,4,23,14
+"Equipment Damage",35,740970.73,21170.592285714286,9,26,25,10,25,28
+"DOT Violation",39,581447.22,14908.903076923077,18,21,46,5,34,12
+"Customer Complaint",34,432491.94,12720.351176470588,13,21,38,10,24,29
+"Accident",35,487418.14,13926.232571428571,14,21,40,4,31,11
